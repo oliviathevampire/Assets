@@ -608,7 +608,15 @@
                     }
                 }
             },
-            "wood_platform": "/tex/tiles/platform/wood_platform.png"
+            "wood_platform": "/tex/tiles/platform/wood_platform.png",
+            "scary_block_one": "/tex/tiles/grass_block_side.png",
+            "scary_block_two": "/tex/tiles/coarse_dirt.png",
+            "nightstone": "/tex/tiles/nightstone.png",
+            "nightstone_bricks": "/tex/tiles/nightstone_bricks.png",
+            "rockshroom": "/tex/tiles/rockshroom.png",
+            "rockshroom_bricks": "/tex/tiles/rockshroom_bricks.png",
+            "trenchstone": "/tex/tiles/trenchstone.png",
+            "trenchstone_bricks": "/tex/tiles/trenchstone_bricks.png"
         },
         "items.": {
             "pebbles": "/tex/items/pebbles.png",
@@ -719,7 +727,10 @@
             "simple_hoe": {
                 "path": "/tex/items/simple_hoe.png",
                 "data": "/tex/items/tool.json"
-            }
+            },
+            "copper_coin": "/tex/items/currency/CoinsCopper0.png",
+            "gold_coin": "/tex/items/currency/CoinGold0.png",
+            "silver_coin": "/tex/items/currency/CoinSilver0.png"
         },
         "gui.": {
             "construction_table.": {
