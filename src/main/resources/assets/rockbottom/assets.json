@@ -843,6 +843,12 @@
                 "10": "/tex/sky/cloud_10.png",
                 "11": "/tex/sky/cloud_11.png"
             }
+        },
+        "biome_parralax.": {
+            "plains.": {
+                "0": "/tex/biomeParralax/Sky.png",
+                "1": "/tex/biomeParralax/Grass.png"
+            }
         }
     },
     "anim.": {
