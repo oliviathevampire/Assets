@@ -609,8 +609,18 @@
                 }
             },
             "wood_platform": "/tex/tiles/platform/wood_platform.png",
+            "compressed_stone": "/tex/tiles/stone_hardened.png",
+            "nether_bricks": "/tex/tiles/nether_bricks.png",
+            "nether_quartz_ore": "/tex/tiles/nether_quartz_ore.png",
+            "nether_wart_block": "/tex/tiles/nether_wart_block.png",
             "netherack": "/tex/tiles/netherack.png",
-            "compressed_stone": "/tex/tiles/compressed_stone.png"
+            "obsidian": "/tex/tiles/obsidian.png",
+            "red_sandstone": "/tex/tiles/sandstone_red.png",
+            "shadow_grass": "/tex/tiles/shadow/shadow_grass.png",
+            "shadow_dirt": "/tex/tiles/shadow/shadow_dirt.png",
+            "shadow_stone": "/tex/tiles/shadow/shadow_stone.png",
+            "shadow_stone_bricks": "/tex/tiles/shadow/shadow_stone_bricks.png",
+            "chiseled_shadow_stone": "/tex/tiles/shadow/chiseled_shadow_stone_2.png"
         },
         "items.": {
             "pebbles": "/tex/items/pebbles.png",
@@ -839,10 +849,8 @@
             }
         },
         "biome_parralax.": {
-            "plains.": {
-                "0": "/tex/biomeParralax/Sky.png",
-                "1": "/tex/biomeParralax/Grass.png"
-            }
+            "plains_sky":  "/tex/biome_parralax/sky.png",
+            "plains_grass": "/tex/biome_parralax/grass.png"
         }
     },
     "anim.": {
@@ -996,6 +1004,10 @@
         },
         "entity.": {
             "fire": ["/anim/entity/fire.json", "/anim/entity/fire.png"]
+        },
+        "tiles.": {
+            "nether_portal": ["/tex/tiles/nether_portal.json", "/tex/tiles/nether_portal.png"],
+            "shadow_portal": ["/tex/tiles/shadow/shadow_portal.json", "/tex/tiles/shadow/shadow_portal.png"]
         }
     },
     "font.": {
