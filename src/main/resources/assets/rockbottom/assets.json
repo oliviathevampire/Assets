@@ -608,7 +608,9 @@
                     }
                 }
             },
-            "wood_platform": "/tex/tiles/platform/wood_platform.png"
+            "wood_platform": "/tex/tiles/platform/wood_platform.png",
+            "netherack": "/tex/tiles/netherack.png",
+            "compressed_stone": "/tex/tiles/compressed_stone.png"
         },
         "items.": {
             "pebbles": "/tex/items/pebbles.png",
