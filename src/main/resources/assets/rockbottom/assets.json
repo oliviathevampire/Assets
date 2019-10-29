@@ -608,15 +608,7 @@
                     }
                 }
             },
-            "wood_platform": "/tex/tiles/platform/wood_platform.png",
-            "scary_block_one": "/tex/tiles/grass_block_side.png",
-            "scary_block_two": "/tex/tiles/coarse_dirt.png",
-            "nightstone": "/tex/tiles/nightstone.png",
-            "nightstone_bricks": "/tex/tiles/nightstone_bricks.png",
-            "rockshroom": "/tex/tiles/rockshroom.png",
-            "rockshroom_bricks": "/tex/tiles/rockshroom_bricks.png",
-            "trenchstone": "/tex/tiles/trenchstone.png",
-            "trenchstone_bricks": "/tex/tiles/trenchstone_bricks.png"
+            "wood_platform": "/tex/tiles/platform/wood_platform.png"
         },
         "items.": {
             "pebbles": "/tex/items/pebbles.png",
