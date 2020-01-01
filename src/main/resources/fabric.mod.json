@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "raa",
+  "version": "${version}",
+
+  "name": "Randomly Adding Anything",
+  "description": "This mod adds randomly generated dimensions and materials based on a lot of different parameters, like name, color and more",
+  "authors": [
+    "Vampire Studios"
+  ],
+  "contributors": [
+    "Shnupbups",
+    "Kiroto",
+    "shedaniel",
+    "Siphalor"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/randomly-adding-anything",
+    "sources": "https://github.com/vampire-studios/Randomly-Adding-Anything",
+    "discord": "https://discord.gg/2HKGqJE",
+    "issues": "https://github.com/vampire-studios/Randomly-Adding-Anything/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/raa/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.vampirestudios.raa.RandomlyAddingAnything"
+    ],
+    "client": [
+      "io.github.vampirestudios.raa.RandomlyAddingAnythingClient"
+    ],
+    "modmenu": [
+      "io.github.vampirestudios.raa.utils.ModMenuCompat"
+    ]
+  },
+
+  "mixins": [
+    "raa.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.6.0",
+    "fabric": "*",
+    "minecraft": ">=1.15-rc.6"
+  },
+  "suggests": {
+    "thehallow": "*"
+  }
+}
